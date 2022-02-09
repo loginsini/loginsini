@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #eee
+}
+
+.wrapper {
+    padding: 40px;
+    background: rgba(46, 0, 0, .21);
+    border: 0 solid #000;
+    box-shadow: 0 0 0 0 #000;
+    border-radius: 10px;
+    background: -moz-linear-gradient(top, #ffcC664 0, #000 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, .6) 30%, #00000000 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, .6) 30%, #000 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, .6) 30%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .6) 30%, rgba(14, 14, 14, .43) 100%);
+    padding: 0 15px
+}
+
+.logo {
+    text-align: center !important;
+    padding: 20px !important
+}
+
+.logo span {
+    text-align: center !important
+}
+
+.logo span img {
+    text-align: center !important;
+    display: inline-block !important
+}
+
+.daftar-sub {
+    display: grid;
+    align-items: center;
+    background: #2778bc;
+    max-width: 375px;
+    border-radius: 5px;
+    height: 50px;
+    margin: 18px auto;
+    color: #fff;
+    font-weight: 700;
+    font-size: large;
+    font-family: Lato, Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .3s, transform .3s, box-shadow .3s;
+    will-change: transform;
+    border: 1px solid #fff;
+    line-height: 12px;
+    box-shadow: 0 0 15px #00bfff;
+    text-align: center
+}
+
+.daftar-sub:hover {
+    color: #1b1b1b;
+    font-weight: 700;
+    text-decoration: none;
+    background: orange;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .2);
+    transform: translate3d(0, -2px, 0)
+}
+
+h1 {
+    font-size: 30px !important;
+    font-weight: 700
+}
+
+.buttoninfo {
+    padding: 5px 0 30px
+}
+
+.buttoninfo button {
+    border-radius: 5px;
+    border: none;
+    background: #297fc7;
+    font-size: 20px;
+    margin: 3px
+}
+
+.home_quote .question,
+.logo_sub .answer {
+    display: block;
+    width: 100%;
+    color: #adff2f;
+    font-family: Roboto, sans-serif;
+    text-align: center
+}
+
+.logo_sub .question {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-transform: uppercase
+}
+
+.logo_sub .answer {
+    font-size: 16px;
+    margin-top: 10px
+}
+
+.logo_sub a.cta {
+    position: absolute;
+    border-radius: 30px;
+    background-color: #fccd1b;
+    padding: 10px 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #2c1522;
+    bottom: -17px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+    width: fit-content;
+    min-width: 200px;
+    text-decoration: none
+}
+
+.logo_sub a.cta:hover {
+    background-color: #adff2f;
+    color: #1b1b1b
+}
+
+.buttoninfo button:hover {
+    border-radius: 5px;
+    border: none;
+    background: #b57500
+}
+
+.playgame button {
+    padding: 15px 20px;
+    width: 100%
+}
+
+.register button {
+    padding: 15px 20px;
+    width: 100%
+}
+
+.bg-info {
+    text-align: center;
+    background: 0 0
+}
+
+a {
+    color: #fff
+}
+
+a:hover {
+    color: #e4e3e3
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 5px
+}
+
+.banksuport {
+    text-align: center
+}
+
+.smartphone {
+    text-align: center;
+    padding-top: 10px
+}
+
+.footer {
+    padding: 20px;
+    text-align: center
+}
+
+#jackpot {
+    margin: 10px 0 15px;
+    font-size: 34px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 2px #999
+}
